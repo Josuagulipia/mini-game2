@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duel Algoritma 1v1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="arena">
+      <h1>⚔️ DUEL ALGORITMA 1v1 ⚔️</h1>
+      <div class="scoreboard">
+        <div id="player1" class="player">
+          🧠 Pemain 1<br /><span id="score1">0</span>
+        </div>
+        <div id="player2" class="player">
+          ⚡ Pemain 2<br /><span id="score2">0</span>
+        </div>
+      </div>
+
+      <div id="question-box" class="question-box">
+        <h2 id="question">Tekan "Mulai" untuk memulai duel!</h2>
+        <div id="options" class="options"></div>
+      </div>
+
+      <button id="start-btn" class="start-btn">Mulai Duel 🚀</button>
+
+      <div id="turn" class="turn"></div>
+
+      <div id="result" class="result hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
